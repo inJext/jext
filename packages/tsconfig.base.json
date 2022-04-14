@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+
+        "module": "commonjs",
+        "declaration": true,
+        "noImplicitAny": false,
+        "noLib": false,
+        "target": "es2017",
+        "sourceMap": false,
+        "allowJs": false,
+        "strict": true,
+        "esModuleInterop": true,
+        "paths": {},
+        "outDir": "../.dist/jext"
+    },
+    "exclude": ["../node_modules", "./**/*.spec.ts"]
+}
