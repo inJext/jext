@@ -1,0 +1,1 @@
+# InJext NextJs Component Generator

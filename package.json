@@ -1,0 +1,9 @@
+{
+  "name": "injext",
+  "version": "1.0.0",
+  "description": "NextJS customizable component generator",
+  "main": "index.ts",
+  "repository": "git@github.com:inJext/jext.git",
+  "author": "Killian (ZiXyos) Moudery",
+  "license": "MIT"
+}
