@@ -4,12 +4,16 @@
   "description": "inJext is just inJexting some code in your nextJs Project @inJext",
   "main": "index.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "yarn build; node ../../.dist/jext/index.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/inJext/jext"
   },
   "author": "killian (ZiXyos) Moudery",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.24"
+  }
 }

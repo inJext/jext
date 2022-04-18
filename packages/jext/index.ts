@@ -1,4 +1,8 @@
-function jext(): void {
+import { generator } from './generator'
 
-    console.log('IN JEXTIONNN OF COOOOOOEEEEE');
+function jext(type: string, fName: string): void {
+
+    generator(type, fName);
 }
+
+jext('component', 'button');

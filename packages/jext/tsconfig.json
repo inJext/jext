@@ -3,5 +3,6 @@
     "compilerOptions": {
         "baseUrl": "./"
     },
-    "include": ["*.ts", "**/*.ts"]
+    "include": ["*.ts", "**/*.ts"],
+    "exclude": ["./template/*.ts", "./template/**/.ts", "./res/*.ts", "./res/**/*.ts" ]
 }

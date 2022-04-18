@@ -1,0 +1,1 @@
+export { generator, fileEditor, fileGenerator } from "./file.generator";
